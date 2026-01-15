@@ -73,6 +73,14 @@ Follow us on Instagram and stay connected 🎶
 **Swapnanil Chakraborty**  
 Frontend Developer | Software Engineering Student  
 
+## 📄 License
+
+© 2026 COS THETA. All rights reserved.
+
+This project is private property.  
+No part of this repository may be copied, modified, or distributed without permission.
+
+
 ---
 
 ⭐ If you like this project, feel free to star the repository!
