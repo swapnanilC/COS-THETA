@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: wavy;
+    text-decoration-color: cyan;
+}
+#member-photos{
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+    padding: 20px;
+    
+}
+#member-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#memberinfo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 30px;
+    text-shadow: 0px 5px 10px cyan;
+}
+#member-photos:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px cyan;
+    transition: all 0.3s ease-in-out;
+}
+#members-plate{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.animate-down {
+    animation: slideDown 1s ease-out forwards;
+    opacity: 0; /* Start invisible */
+}
+
+/* Define the keyframes */
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.removeneelu{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 50px;
+    
+    display: block;
+    
+}
+.remove-button{
+    font-size: 20px;
+    border-radius: 10%;
+    background-color: crimson;
+}
+.removeneelu:hover{
+    background-color: darkred;
+    transform: scale(1.03);
+}
